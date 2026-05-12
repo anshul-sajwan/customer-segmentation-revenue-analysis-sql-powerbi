@@ -1,40 +1,30 @@
-# Customer Segmentation Analysis | Excel + SQL + Power BI
+# Customer Segmentation & Revenue Analysis | Excel + SQL + Power BI
 
-## Overview
-
-This project analyzes customer purchasing behavior, revenue contribution and customer segments using the Online Retail Dataset.
-
-The workflow combines Excel, SQL and Power BI to perform data consolidation, cleaning, transformation, data modeling, customer segmentation and interactive dashboard visualization.
-
-Customers were segmented into **High Value, Medium Value and Low Value** groups based on revenue contribution using percentile-based segmentation logic (P50 and P80 thresholds).
-
-The dashboard provides insights into:
-- High-value customers driving revenue
-- Revenue contribution by customer segments
-- Monthly revenue trends and seasonality
-- Top customers and countries by revenue
+Analyze customer segments and revenue contribution to identify high-value customers, monitor revenue trends, and support business decision-making using Excel, SQL, and Power BI.
 
 ---
 
-## Objective
+## Overview
 
-- Segment customers based on revenue contribution
-- Identify high-value customers driving the majority of business revenue
-- Analyze customer distribution across different value segments
-- Monitor monthly revenue trends and seasonal patterns
-- Discover top-performing countries and customers
+This project analyzes customer purchasing behavior, customer segments, and revenue performance using the Online Retail Dataset.
+
+An end-to-end analytics workflow was built using Excel for data preparation, SQL for data cleaning and transformation, and Power BI for dashboard development and visualization.
+
+Customers were segmented into High Value, Medium Value, and Low Value groups based on revenue contribution using percentile-based segmentation logic (P50 and P80 thresholds).
 
 ---
 
 ## Business Problem
 
 Businesses often struggle to identify:
-- Customers generating the highest revenue
+
+- Customers driving the highest revenue
 - Customer segments requiring retention or upselling strategies
+- Revenue concentration across customer segments
 - Countries contributing the most to overall sales
 - Seasonal revenue trends affecting business performance
 
-This project addresses these challenges through customer segmentation and revenue analysis using interactive Power BI visualizations.
+This project addresses these challenges through customer segmentation and revenue analysis using interactive Power BI visualizations
 
 ---
 
@@ -122,7 +112,7 @@ SET Revenue = Quantity * UnitPrice;
 
 - KPI Cards
 - Customer Segment Distribution
-- Revenue by Customer Segment
+- Revenue Contribution by Segment
 - Monthly Revenue Trend
 - Top Customers by Revenue
 - Top Countries by Revenue

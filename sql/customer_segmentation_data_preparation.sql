@@ -1,5 +1,5 @@
 -- =========================================
--- CUSTOMER SEGMENTATION PROJECT
+-- Customer Segmentation & Revenue Analysis PROJECT
 -- =========================================
 
 -- =========================================

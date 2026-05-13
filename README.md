@@ -21,7 +21,7 @@ Businesses often struggle to identify:
 - Customers driving the highest revenue
 - Customer segments requiring retention or upselling strategies
 - Revenue concentration across customer segments
-- Countries contributing the most to overall sales
+- Countries contributing the most to overall revenue
 - Seasonal revenue trends affecting business performance
 
 This project addresses these challenges through customer segmentation and revenue analysis using interactive Power BI visualizations
@@ -103,7 +103,7 @@ SET Revenue = Quantity * UnitPrice;
 - High-value customers (~20%) contribute nearly 77% of total revenue
 - Around 50% of customers belong to the low-value segment
 - Revenue peaks during September–November, indicating seasonal demand
-- The United Kingdom generates the highest revenue contribution
+- The United Kingdom contributes the highest share of overall revenue
 - Revenue is heavily concentrated among top-performing customers
 
 ---
@@ -129,10 +129,10 @@ SET Revenue = Quantity * UnitPrice;
 ## How to Run This Project
 
 1. Run the SQL script:
-   - `customer_segmentation_data_preparation.sql`
+   - `data_cleaning.sql`
 
 2. Open:
-   - `customer_segmentation_dashboard.pbix`
+   - `customer_segmentation_revenue_analysis.pbix`
 
 3. Refresh the Power BI data connection.
 

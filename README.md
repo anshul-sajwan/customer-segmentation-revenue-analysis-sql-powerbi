@@ -126,20 +126,14 @@ SET Revenue = Quantity * UnitPrice;
 
 ## How to Run This Project
 
-1. Load the dataset and update the CSV file path inside:
-```sql
-data_cleaning.sql
-```
+1. Load the dataset and update the CSV file path inside  
+   `data_cleaning.sql`
 
-2. Run the SQL script:
-```sql
-data_cleaning.sql
-```
+2. Run the SQL script  
+   `data_cleaning.sql`
 
-3. Open the Power BI dashboard:
-```bash
-customer_segmentation_revenue_analysis.pbix
-```
+3. Open the Power BI dashboard  
+   `customer_segmentation_revenue_analysis.pbix`
 
 ---
 

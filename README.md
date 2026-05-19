@@ -6,8 +6,6 @@ Analyze customer segments and revenue contribution to identify high-value custom
 
 ## Overview
 
-This project analyzes customer purchasing behavior, customer segments, and revenue performance using the Online Retail Dataset.
-
 An end-to-end analytics workflow was built using Excel for data preparation, SQL for data cleaning and transformation, and Power BI for dashboard development and visualization.
 
 Customers were segmented into High Value, Medium Value, and Low Value groups based on revenue contribution using percentile-based segmentation logic (P50 and P80 thresholds).
@@ -59,7 +57,7 @@ This project addresses these challenges through customer segmentation and revenu
 ### Excel
 - Merged yearly sheets (2009–2010 and 2010–2011)
 - Consolidated raw transactional data
-- Converted `.xlsx` dataset into `.csv` format for MySQL ingestion
+- Converted Excel data into CSV format for efficient MySQL ingestion
 
 ### SQL
 - Imported CSV data into MySQL
@@ -128,13 +126,20 @@ SET Revenue = Quantity * UnitPrice;
 
 ## How to Run This Project
 
-1. Run the SQL script:
-   - `data_cleaning.sql`
+1. Load the dataset and update the CSV file path inside:
+```sql
+data_cleaning.sql
+```
 
-2. Open:
-   - `customer_segmentation_revenue_analysis.pbix`
+2. Run the SQL script:
+```sql
+data_cleaning.sql
+```
 
-3. Refresh the Power BI data connection.
+3. Open the Power BI dashboard:
+```bash
+customer_segmentation_revenue_analysis.pbix
+```
 
 ---
 
